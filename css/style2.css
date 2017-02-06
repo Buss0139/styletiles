@@ -6,7 +6,7 @@
 }
 .sub-header{
 	font-family:'Open Sans';
-	font-weight: extra-bold;
+	font-weight: 800;
 }
 .big-text{
 	font-family:'Open Sans';
@@ -14,8 +14,7 @@
 }
 /** colors **/
 
-.two{
-	height: 100%;
+
 }
 .color1{
 	background: #f6d155;

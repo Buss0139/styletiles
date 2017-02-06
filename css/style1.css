@@ -14,19 +14,19 @@
 	flex-grow:3;
 	margin: auto;  /* Magic! */
 	display:flex;
-	align-content: flex-end;
+	align-items: flex-end;
 }
 
 .title h1{
 	font-family:'Libre Baskerville';
 	font-style: italic;
 	color: #FFF;
-	margin:auto;
+	margin:2rem auto 2rem auto;
 }
 /** navigation **/
 .navigation{
 	display:flex;
-	align-content: flex-end;
+	align-items: flex-end;
 	flex-grow:1;
   	margin: auto;  /* Magic! */
 }
@@ -48,6 +48,10 @@
 	color: #FFF;
 }
 
+.navigation li:hover{
+	color:#5487a4;
+}
+
 .sub-header h2{
 	font-family:'Open Sans';
 	font-weight: 800;
@@ -62,8 +66,20 @@
 }
 
 
+.row h3{
+	font-family:'Libre Baskerville';
+	font-style: italic;
+	text-transform: uppercase;
+	color:#222;
+	font-size: 1.75em;
+}
 
-
+.method {
+	height:100px;
+	width: 100px;
+	margin: 1rem;
+	background: #f4dcc1;
+}
 
 
 /** colors **/
