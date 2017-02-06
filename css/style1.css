@@ -1,0 +1,41 @@
+
+/** fonts **/
+.main-header{
+	font-family:'Libre Baskerville';
+	font-style: italic;
+	background-color: #f6d155;
+}
+.sub-header h2{
+	font-family:'Open Sans';
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size:1.25em;
+	color: #888;
+}
+.big-text{
+	font-family:'Open Sans';
+	font-weight: Light;
+}
+/** colors **/
+
+.two{
+	height: 100px;
+}
+.color1{
+	background: #f6d155;
+}
+.color2{
+	background: #f4dcc1;
+}
+.color3{
+	background: #44345e
+}
+.color4{
+	background: #5487a4
+}
+.color5{
+	background: #004b8d	
+}
+.color6{
+	background: #c1c1c1	
+}

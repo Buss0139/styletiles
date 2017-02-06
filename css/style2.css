@@ -1,0 +1,37 @@
+
+/** fonts **/
+.main-header{
+	font-family:'Libre Baskerville';
+	font-style: italic;
+}
+.sub-header{
+	font-family:'Open Sans';
+	font-weight: extra-bold;
+}
+.big-text{
+	font-family:'Open Sans';
+	font-weight: Light;
+}
+/** colors **/
+
+.two{
+	height: 100%;
+}
+.color1{
+	background: #f6d155;
+}
+.color2{
+	background: #f4dcc1;
+}
+.color3{
+	background: #44345e
+}
+.color4{
+	background: #5487a4
+}
+.color5{
+	background: #004b8d	
+}
+.color6{
+	background: #c1c1c1	
+}
