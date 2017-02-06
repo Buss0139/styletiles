@@ -1,21 +1,71 @@
 
 /** fonts **/
-.main-header{
+.banner {
+		display: flex;
+		flex-direction: row;
+		background-color: #f6d155;
+		justify-content: space-around;
+		align-items: baseline;
+		margin:auto;
+		
+}
+
+.title{
+	flex-grow:3;
+	margin: auto;  /* Magic! */
+	display:flex;
+	align-content: flex-end;
+}
+
+.title h1{
 	font-family:'Libre Baskerville';
 	font-style: italic;
-	background-color: #f6d155;
+	color: #FFF;
+	margin:auto;
 }
+/** navigation **/
+.navigation{
+	display:flex;
+	align-content: flex-end;
+	flex-grow:1;
+  	margin: auto;  /* Magic! */
+}
+
+.navigation ul{
+	list-style: none;
+	display:flex;
+	justify-content: flex-end;
+  	align-items: flex-end;
+  	margin:auto;
+}
+.navigation li{
+	padding:2rem;
+	margin: auto;
+	font-family:'Open Sans';
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #FFF;
+}
+
 .sub-header h2{
 	font-family:'Open Sans';
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size:1.25em;
+
 	color: #888;
 }
-.big-text{
+.big-text {
 	font-family:'Open Sans';
 	font-weight: Light;
 }
+
+
+
+
+
+
 /** colors **/
 
 .two{
