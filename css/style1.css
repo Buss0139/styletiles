@@ -1,4 +1,17 @@
 
+
+#styleButtons {
+	position: absolute;
+	display: inline-flex;
+	top: 100px;
+	left: 0px;
+	transform: rotate(90deg);
+}
+
+#style1Button #style2Button {
+	background-color
+}
+
 .container {
 	margin-bottom: 5vh;
 }
