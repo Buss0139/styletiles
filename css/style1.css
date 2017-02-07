@@ -1,46 +1,49 @@
 
-/** fonts **/
+.container {
+	margin-bottom: 5vh;
+}
+
 .banner {
-		display: flex;
-		flex-direction: row;
-		background-color: #f6d155;
-		justify-content: space-around;
-		align-items: baseline;
-		margin:auto;
-		
+	padding: 25px;
+	display: flex;
+	flex-direction: row;
+	background-color: #f6d155;
+	justify-content: space-between;;
+	align-items: flex-end;
+	/*margin:auto;*/
+
 }
 
 .title{
-	flex-grow:3;
-	margin: auto;  /* Magic! */
-	display:flex;
-	align-items: flex-end;
+	/* flex-grow:3; */
+	/* margin: auto;  Magic! */
 }
 
 .title h1{
 	font-family:'Libre Baskerville';
 	font-style: italic;
+	line-height: .9;
 	color: #FFF;
-	margin:2rem auto 2rem auto;
+	margin: 0px;
 }
 /** navigation **/
 .navigation{
 	display:flex;
 	align-items: flex-end;
-	flex-grow:1;
-  	margin: auto;  /* Magic! */
+
 }
 
 .navigation ul{
 	list-style: none;
 	display:flex;
 	justify-content: flex-end;
-  	align-items: flex-end;
-  	margin:auto;
+  align-items: flex-end;
+  margin:auto;
+	margin-bottom: 0px;
 }
 .navigation li{
-	padding:2rem;
-	margin: auto;
+	padding-left:2rem;
+	margin: 0px;
 	font-family:'Open Sans';
 	font-weight: 800;
 	text-transform: uppercase;
@@ -52,6 +55,12 @@
 	color:#5487a4;
 }
 
+/** fonts **/
+.big-text {
+	font-family:'Open Sans';
+	font-weight: Light;
+}
+
 .sub-header h2{
 	font-family:'Open Sans';
 	font-weight: 800;
@@ -60,13 +69,8 @@
 
 	color: #888;
 }
-.big-text {
-	font-family:'Open Sans';
-	font-weight: Light;
-}
 
-
-.row h3{
+h3{
 	font-family:'Libre Baskerville';
 	font-style: italic;
 	text-transform: uppercase;
@@ -74,13 +78,23 @@
 	font-size: 1.75em;
 }
 
-.method {
+/** method layout **/
+
+.img {
 	height:100px;
-	width: 100px;
-	margin: 1rem;
+	width: auto;
+	margin: 0;
 	background: #f4dcc1;
 }
 
+}
+.row .method h5{
+	font-family:'Libre Baskerville';
+	font-style: italic;
+	text-transform: uppercase;
+	color:#222;
+	font-size: 1em;
+}
 
 /** colors **/
 
@@ -100,8 +114,8 @@
 	background: #5487a4
 }
 .color5{
-	background: #004b8d	
+	background: #004b8d
 }
 .color6{
-	background: #c1c1c1	
+	background: #c1c1c1
 }
