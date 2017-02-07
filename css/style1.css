@@ -8,8 +8,14 @@
 	transform: rotate(90deg);
 }
 
-#style1Button #style2Button {
-	background-color
+#style1Button, #style2Button {
+	margin: 2px;
+	padding: 10px;
+	background-color: #44345e;
+	color: #fff;
+	border: 1px;
+	font-size: 1.4em;
+	font-family: 'open sans';
 }
 
 .container {

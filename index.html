@@ -16,13 +16,16 @@
   <!-- FONT  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i|Open+Sans:300,400,800|Roboto+Slab:400,700|Roboto:100i,300,900i" rel="stylesheet">
+<script src="./script.js" charset="utf-8"></script>
 
 
    <!-- CSS  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style2.css">
+  <div id="stylesheetContainer">
+    <link rel="stylesheet" href="css/style2.css">
+  </div>
     <!-- Favicon
 
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -34,11 +37,11 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <div id="styleButtons">
-    <div id="style2Button">
-      Button 1
+    <div class="b" id="style1Button" onclick="changeCSS(1)">
+      Style 1
     </div>
-    <div id="style2Button">
-      Button 2
+    <div class="b" id="style2Button" onclick="changeCSS(2)">
+      Style 2
     </div>
   </div>
 
