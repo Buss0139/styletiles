@@ -15,7 +15,7 @@
 	color: #fff;
 	border: 1px;
 	font-size: 1.4em;
-	font-family: 'open sans';
+	font-family: 'Muli';
 }
 
 .container {
@@ -33,11 +33,6 @@
 
 }
 
-.title{
-	/* flex-grow:3; */
-	/* margin: auto;  Magic! */
-}
-
 .title h1{
 	font-family:'Libre Baskerville';
 	font-style: italic;
@@ -45,6 +40,7 @@
 	color: #FFF;
 	margin: 0px;
 }
+
 /** navigation **/
 .navigation{
 	display:flex;
@@ -63,7 +59,7 @@
 .navigation li{
 	padding-left:2rem;
 	margin: 0px;
-	font-family:'Open Sans';
+	font-family:'Muli';
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 1em;
@@ -76,12 +72,12 @@
 
 /** fonts **/
 .big-text {
-	font-family:'Open Sans';
-	font-weight: Light;
+	font-family:'Muli';
+	font-weight: 200;
 }
 
 .sub-header h2{
-	font-family:'Open Sans';
+	font-family:'Muli';
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size:1.25em;
